@@ -1,0 +1,8 @@
+wa72_json_rpc:
+  functions:
+    balance.userBalance:
+      service: 'balance_history_method'
+      method: 'getBalance'
+    balance.history:
+      service: 'balance_history_method'
+      method: 'getHistory'

@@ -1,0 +1,7 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+
+wa72_json_rpc:
+  resource: "@Wa72JsonRpcBundle/Resources/config/routing.yml"
+  prefix:   /jsonrpc
